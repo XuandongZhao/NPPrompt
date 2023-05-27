@@ -1,0 +1,5 @@
+{"placeholder": "text_a"} ? {"mask"} , {"placeholder": "text_b"}
+{"placeholder": "text_a"} {"placeholder": "text_b"} {"soft": "Does the first sentence entails the second ?"} {"mask"} {"soft"}.
+{"placeholder": "text_a"} {"mask"} , you are right , {"placeholder": "text_b"}
+{"placeholder": "text_a"} {"mask"} you're right , {"placeholder": "text_b"}
+{"placeholder": "text_a"} {"placeholder": "text_b"} Does the first sentence entails the second ? {"mask"}
