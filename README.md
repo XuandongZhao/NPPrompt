@@ -1,6 +1,8 @@
 # NPPrompt
 [ACL 2023] NPPrompt: Pre-trained Language Models Can be Fully Zero-Shot Learners
 
+## [Paper](https://arxiv.org/abs/2212.06950)
+
 We are currently refining the code to align with state-of-the-art Language Models (LLMs). Stay tuned for updates!
 
 We use the dataset in [OpenPrompt](https://github.com/thunlp/OpenPrompt).
