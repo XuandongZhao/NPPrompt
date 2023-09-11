@@ -226,7 +226,7 @@ try:
     allprobs = torch.cat(allprobs, dim=0)
     allscores = (allprobs * torch.tensor(class_labels)).sum(dim=-1)
 except Exception as e:
-    print(e)
+    print('Error for calculating pearson')
 
 assert clas_tag or (not clas_tag and allscores is not None)
 

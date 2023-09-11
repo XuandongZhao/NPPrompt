@@ -8,7 +8,6 @@ SEED=144 # 145 146 147 148
 SHOT=0 # 0 1 10 20
 VERBALIZER=ept #
 CALIBRATION=""
-FILTER=tfidf_filter # none
 VERBOSE=1
 MODEL="roberta" # "roberta"
 MODEL_NAME_OR_PATH="roberta-large" # "roberta-large" # "bert-base-uncased"
@@ -22,7 +21,7 @@ rm -f ${DATASET}_${MODEL}_cos.pt
 
 mkdir -p "results/$MODEL_NAME_OR_PATH"
 
-i=10
+i=12
 
 CUDA_VISIBLE_DEVICES=4 $PYTHONPATH emb_prompt.py \
         --model $MODEL \
@@ -34,5 +33,4 @@ CUDA_VISIBLE_DEVICES=4 $PYTHONPATH emb_prompt.py \
         --seed $SEED \
         --verbose $VERBOSE \
         --verbalizer $VERBALIZER $CALIBRATION \
-        --filter $FILTER \
         --select $i
