@@ -12,6 +12,8 @@ cd datasets
 bash download_text_classification.sh
 ```
 
+[Update] The link in the download_text_classification.sh script is no longer valid. The required files can now be downloaded from this Google Drive link: https://drive.google.com/file/d/1i98mgI93Qy6KHqG4gIlxnVExjfiGi7ss/view?usp=sharing
+
 ## Run the code
 
 ```bash
